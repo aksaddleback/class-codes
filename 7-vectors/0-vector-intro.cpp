@@ -22,7 +22,10 @@
     or not. Where would you keep list of names to search them
     in the futre. 
 - Basic operations: 
-    push_back: adds an element to the end of the vector.
-    pop_back: removes an element from the end of the vector. 
-    size: returns size of the vector
+    v.push_back(x): adds element x to the end of the vector v.
+    v.pop_back(): removes last element of the vector v.
+    v.size(): returns size of the vector v. 
+    Example: 
+        vector<double> vec; 
+        vec.push_back(5.5); 
 */

@@ -42,7 +42,6 @@ int main() {
         if (equalVectors) { 
             cout << "vectors have same numbers maybe in different order!" << endl;
         } else { 
-            cout << "vectors don't have same numbers!" << endl;
+            cout << "vectors don'thave same numbers maybe in different order!" << endl;
         }
     }
-}

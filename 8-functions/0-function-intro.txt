@@ -1,0 +1,38 @@
+Nov 28, 2023: 
+- What is function? 
+    - a group of statements in a block of code to perform a certain action
+    - it has a name
+    - the block of code run when the function is called
+    - one can pass data to a function (parameters)
+    - a function can return a result
+- Why to use functions? 
+    - organize the code
+    - reuse the code (write once and use many times)
+- How to declare (create) a function? 
+    int min (int x, int y) { // this is function declaration
+        if (x < y) {         // starting here is function definition 
+            return x; 
+        } else { 
+            return y; 
+        }
+    }
+    - name of the function is min
+    - this function receives two int parameters (into x and y)
+    - runs the statements in the body of the function
+    - returns a result (int this case an int)
+        - a function can return nothing (void functions)
+- How to call a function
+    - in the main (or another function), simply call the name and pass the parameters
+    - example: 
+        int z = min(5, 12);
+- Parameters
+    - a function can have as many parameters as you wish
+    - parameters are specified in the parentheses after the funciton name
+    - default parameter
+        - if a parameter defined with a default value and the function is called 
+        without passing a value for that parameter, the defualt value is used. 
+    - 
+- Parameter passing methods
+    - pass by value
+    - pass by reference 
+        

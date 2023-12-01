@@ -34,5 +34,32 @@ Nov 28, 2023:
     - 
 - Parameter passing methods
     - pass by value
+        no specific notiation
     - pass by reference 
-        
+        we use & before the variable names
+
+
+Array
+    - similar to list and vector is a group of memory locations
+    - example
+        int a[5] defines and array of integer with 5 integer elements
+        string names[] = { "John", "Alex", "Elsa" }; 
+        string names[3] = { "John", "Alex", "Elsa" }; // alternative
+    - we can access elements similar to how we access characters in a string
+        cout << names[1]; 
+        names[0] = "Max"; 
+    - for, while, for (each) loop can be used to loop through the array elements
+        for (string s : names) { cout << s; }
+    - sizeof(names), will return size of the array in bytes. 
+        - if you have an integer array, to get number of elements you should use: 
+            sizeof(a) / sizeof(int)
+    - multidimentionanl array: 
+        int numbers[4][4] = { 
+            {1, 2, 3, 4}, 
+            {5, 6, 7, 8}, 
+            {0, 0, 0, 0}, 
+            {9, 9, 9, 9}
+        }
+        cout numbers[3][2];
+        - how to print all the elements? 
+    

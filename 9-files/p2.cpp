@@ -8,6 +8,6 @@ int main() {
     ofstream f("output.txt");
     string s; 
     getline(cin, s); 
-    f << s; // cout << s; 
+    f << s; // similar to "cout << s;" but write into file instead of console. 
     f.close(); 
 }

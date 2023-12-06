@@ -7,7 +7,7 @@ using namespace std;
 int main() { 
     ifstream f("input.txt");
     string s = "temp";
-    while (!s.empty()) {
+    while (!f.eof()) {
         getline(f, s);
         cout << s << endl; 
     }

@@ -12,3 +12,5 @@
     getline(Myfile, str); 
 - to write into a file we can use << operator
     Myfile << "Hi there!"; 
+- to check if we reached to the end of file
+    Myfile.eof()

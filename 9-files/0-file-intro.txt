@@ -1,0 +1,14 @@
+- fstream library is used to work with files
+    #import<fstream> //file stream 
+- data type to create and write to a file
+    ofstream Myfile("filename.txt"); 
+- data type to read from a file
+    ifstream Myfile("filename.txt");
+- data type to create, read, write 
+    fstream Myfile("filename.txt");
+- after done using a file we need to close the file
+    MyFile.close();
+- to read from file we can use getline
+    getline(Myfile, str); 
+- to write into a file we can use << operator
+    Myfile << "Hi there!"; 

@@ -6,7 +6,7 @@ named "input.txt" and displays it on the console.
 using namespace std; 
 int main() { 
     ifstream f("input.txt");
-    string s = "temp";
+    string s;
     while (!f.eof()) {
         getline(f, s);
         cout << s << endl; 
